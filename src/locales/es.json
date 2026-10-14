@@ -1,1 +1,525 @@
-{}
+{
+  "site": {
+    "name": "Dig to Escape Wiki",
+    "shortName": "Dig to Escape",
+    "tagline": "Guías, rutas de excavación, herramientas y consejos de escape",
+    "description": "Wiki completa de Dig to Escape con guías para principiantes, rutas de excavación, mejoras de herramientas, finales, mecánicas de prisión y las últimas novedades.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "codes": "Códigos",
+    "endings": "Finales",
+    "maps": "Mapas",
+    "items": "Objetos",
+    "mechanics": "Mecánicas",
+    "controls": "Controles",
+    "progression": "Progresión"
+  },
+  "home": {
+    "meta": {
+      "title": "Dig to Escape Wiki - Códigos, guías y consejos",
+      "description": "Explora Dig to Escape Wiki para encontrar guías del juego, estrategias de escape, códigos, novedades, consejos de niveles e información esencial que ayuda a los jugadores a progresar más rápido."
+    },
+    "hero": {
+      "eyebrow": "Juego de aventura y escape subterráneo",
+      "title": "Dig to Escape Wiki",
+      "description": "Dig to Escape es un juego de aventura subterránea en el que los jugadores cavan a través de obstáculos, exploran caminos ocultos, recogen recursos y encuentran las mejores estrategias para escapar de desafiantes zonas subterráneas.",
+      "stats": [
+        "Guías para principiantes",
+        "Todos los finales",
+        "Herramientas y mejoras",
+        "Novedades semanales"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Jugar en Steam",
+      "tertiaryCta": "Códigos activos",
+      "videoLabel": "Tráiler oficial"
+    },
+    "updates": {
+      "title": "Últimas novedades",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu aventura en Dig to Escape",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende el bucle completo de Dig to Escape: reconoce el bloque de celdas, cava un pozo inicial limpio, vende lo que extraigas y calcula tu primera fuga según la ronda del guardia nocturno."
+        },
+        {
+          "number": "2",
+          "title": "Mejor clase",
+          "description": "Compara las cinco clases de Diamante, desde el Velocista de 100 Diamantes hasta el Negociador de 900 Diamantes, y descubre cuál encaja con la ruta que quieres seguir."
+        },
+        {
+          "number": "3",
+          "title": "Todos los finales",
+          "description": "Todos los desenlaces documentados en un solo lugar, incluida la ruta del Pozo de mina, la fuga de la Cocina con 300 de Papel Higiénico y la carrera con la tarjeta del Conserje."
+        },
+        {
+          "number": "4",
+          "title": "Farmeo rápido de PH",
+          "description": "Farmea Papel Higiénico más rápido con patrones de excavación rectangulares, ventas inmediatas y el orden de mejoras que mantiene tus ingresos por delante de tus costes."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias actuales",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Mejor clase",
+        "Todos los finales",
+        "Mapa de la prisión"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "El bucle completo de Dig to Escape, desde tu primera palada de tierra hasta tu primera fuga limpia.",
+          "href": "/guide/dig-to-escape-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Todos los finales",
+          "description": "Pozo de mina, Cocina, Conserje y Azoteas: cada salida y lo que cuesta desbloquearla.",
+          "href": "/endings/dig-to-escape-all-endings"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Mejor clase",
+          "description": "Las cinco clases de Diamante clasificadas, con sus costes y las rutas de escape que mejor le van a cada una.",
+          "href": "/mechanics/dig-to-escape-best-class"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mapa de la prisión",
+          "description": "Bloque de celdas, pasillo principal, oficina del guardia y capa de excavación, además del horario de patrulla nocturna.",
+          "href": "/maps/dig-to-escape-prison"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Consejos de escape",
+          "description": "Hábitos de reconocimiento, farmeo de Papel Higiénico y los errores que acaban con la mayoría de las partidas.",
+          "href": "/guide/dig-to-escape-tips"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mejoras de herramientas",
+          "description": "Costes de Cuchara, Pala de juguete y Espátula, y la velocidad de excavación que aporta cada una.",
+          "href": "/items/dig-to-escape-shovel"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Guía de VR",
+          "description": "Compatibilidad con Meta Quest, orden de mejoras y la ruta más rápida por la versión de VR.",
+          "href": "/progression/dig-to-escape-vr"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Última actualización",
+          "description": "Qué cambia cuando llega un parche de Dig to Escape y qué conviene probar primero.",
+          "href": "/progression/dig-to-escape-new-update"
+        },
+        {
+          "badge": "Popular",
+          "title": "Controles",
+          "description": "Entradas de teclado, ratón y mando para cavar, esprintar e interactuar.",
+          "href": "/controls/dig-to-escape-controls"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Dig to Escape?",
+      "paragraphs": [
+        "Dig to Escape es un juego de supervivencia y fuga de prisión construido sobre una promesa: en algún lugar bajo el bloque de celdas, un túnel secreto conduce al exterior. Empiezas encerrado en una celda con una herramienta para cavar, rompes el suelo y sigues la tierra más blanda hacia abajo mientras un guardia patrulla los pasillos de arriba. El bucle es fácil de aprender y tenso de jugar, porque cada palada es un intercambio entre avanzar y hacer ruido.",
+        "El juego llega de dos formas: una experiencia gratuita de Roblox con servidores públicos compartidos, y una versión de VR de 12,99 $ de K&K Studio para visores Meta Quest. Las partidas duran entre 30 y 60 minutos y terminan en uno de varios finales distintos, incluidos los de Pozo de mina, Cocina, Conserje y Azoteas. Nuestra wiki de Dig to Escape cubre cada ruta, nivel de herramienta y clase para que elijas un plan antes de tu primera palada."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "K&K Studio"
+        },
+        {
+          "label": "Plataformas",
+          "value": "Roblox y Meta Quest"
+        },
+        {
+          "label": "Género",
+          "value": "Supervivencia / Escape"
+        },
+        {
+          "label": "Duración",
+          "value": "30-60 min"
+        },
+        {
+          "label": "Precio VR",
+          "value": "12,99 $"
+        },
+        {
+          "label": "Valoración",
+          "value": "4.8 / 5"
+        }
+      ],
+      "cta": "Explora todas las guías"
+    },
+    "explore": {
+      "title": "Explora la wiki de Dig to Escape",
+      "description": "Todos los sistemas de Dig to Escape en un solo lugar: pasos para principiantes, mejoras de herramientas, consejos de escape, mecánicas de prisión, controles, requisitos del sistema y las últimas novedades.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Dig to Escape",
+          "description": "Empieza aquí para ver el bucle completo de principiante, desde reconocer tu celda hasta calcular la fuga final, además de los hábitos de excavación y venta que hacen que las primeras partidas encajen.",
+          "href": "/guide/dig-to-escape-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Examina el bloque de celdas y el pasillo principal desde tu celda antes de tocar el suelo."
+            },
+            {
+              "label": "2",
+              "detail": "Cava un agujero inicial poco profundo en una esquina de la celda, donde las paredes amortiguan el ruido."
+            },
+            {
+              "label": "3",
+              "detail": "Rompe hacia la capa de excavación despacio y quédate quieto cuando se acerquen los pasos."
+            },
+            {
+              "label": "4",
+              "detail": "Sigue la tierra más blanda, que suele marcar la ruta hacia el túnel oculto."
+            },
+            {
+              "label": "5",
+              "detail": "Cruza la sala de mantenimiento y su rejilla del suelo si tu túnel acaba en un callejón sin salida."
+            },
+            {
+              "label": "6",
+              "detail": "Esprinta hacia la salida a la superficie y comprométete, porque el guardia sigue tu rastro de ruido."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de juego de Dig to Escape",
+          "description": "Descubre cómo encajan los sistemas principales: rutas de excavación, botín y venta, ingresos de Papel Higiénico, clases y los finales que desbloquean.",
+          "href": "/guide/dig-to-escape-how-to-escape",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Excavación",
+              "detail": "Rompe suelos de celdas y paredes de túneles para abrir la ruta física a cada final."
+            },
+            {
+              "label": "Botín",
+              "detail": "Cada bloque que despejas puede soltar contrabando y objetos que merece la pena llevar a la superficie."
+            },
+            {
+              "label": "Venta",
+              "detail": "Convierte los objetos excavados en Papel Higiénico, la moneda que financia cada escape."
+            },
+            {
+              "label": "Clases",
+              "detail": "Elige una de las cinco clases permanentes para moldear la velocidad de excavación, la resistencia y la detección."
+            },
+            {
+              "label": "Finales",
+              "detail": "Activa el final de Pozo de mina, Cocina, Conserje o Azoteas una vez cumplas su condición."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de herramientas de Dig to Escape",
+          "description": "Todas las herramientas de excavación y niveles de mejora, desde la cuchara inicial gratis hasta la Pala de juguete, la Espátula y la Cuchara dorada, con la velocidad que añade cada una.",
+          "href": "/items/dig-to-escape-shovel",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Cuchara dorada, la mejor mejora temprana, con golpes más rápidos y mucha más durabilidad."
+            },
+            {
+              "label": "A",
+              "detail": "Espátula por 45 de Papel Higiénico, la herramienta de gama media que aguanta el ritmo cuando las capas se endurecen."
+            },
+            {
+              "label": "B",
+              "detail": "Pala de juguete por 25 de Papel Higiénico para +16 de velocidad de excavación, suficiente para romper la segunda capa."
+            },
+            {
+              "label": "C",
+              "detail": "Cuchara inicial, gratis al aparecer y solo lo bastante fuerte para la primera capa."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Consejos de escape de Dig to Escape",
+          "description": "Hábitos prácticos que acortan una partida: reconocer la patrulla, cavar solo en momentos seguros, guardar el botín y ajustar tu clase a la ruta.",
+          "href": "/guide/dig-to-escape-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Reconocimiento",
+              "detail": "Observa una ronda completa de guardia antes de romper el suelo y planifica en torno a ella."
+            },
+            {
+              "label": "Sincronización",
+              "detail": "Nunca caves mientras oigas pasos y nunca vuelvas a un agujero reciente tras una persecución."
+            },
+            {
+              "label": "Guardar",
+              "detail": "Vende el botín de inmediato para que un escape fallido te cueste mucho menos."
+            },
+            {
+              "label": "Clases",
+              "detail": "Ajusta tu clase a la ruta en lugar de comprar solo por estadísticas."
+            },
+            {
+              "label": "Rutas",
+              "detail": "Termina un final antes de empezar el siguiente para evitar progreso dividido."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Mecánicas de prisión de Dig to Escape",
+          "description": "Un análisis completo de la prisión, incluidos el bloque de celdas, el pasillo principal, la oficina del guardia, la sala de mantenimiento, la capa de excavación y la salida final a la superficie.",
+          "href": "/maps/dig-to-escape-prison",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Bloque de celdas",
+              "detail": "Tu punto de excavación inicial, donde el ruido llega directo al pasillo."
+            },
+            {
+              "label": "Pasillo",
+              "detail": "La principal ruta de patrulla del guardia y el cruce más peligroso del mapa."
+            },
+            {
+              "label": "Guardia",
+              "detail": "Patrulla de noche, se detiene cerca del ruido reciente y luego persigue la última fuente de sonido."
+            },
+            {
+              "label": "Capa de excavación",
+              "detail": "Tierra blanda y bolsas de roca bajo el suelo donde ocurre el escape real."
+            },
+            {
+              "label": "Rejilla",
+              "detail": "La rejilla del suelo de la sala de mantenimiento es una segunda entrada a la capa de excavación."
+            },
+            {
+              "label": "Superficie",
+              "detail": "La puerta de salida final, donde un error reinicia toda la partida."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Controles de Dig to Escape",
+          "description": "Entradas de teclado, ratón y mando para cavar, esprintar, interactuar y cambiar de herramienta, además del tiempo que te mantiene fuera de la vista.",
+          "href": "/controls/dig-to-escape-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "LMB",
+              "detail": "Mantén pulsado el botón izquierdo del ratón para cavar en la cara del bloque que estés apuntando."
+            },
+            {
+              "label": "WASD",
+              "detail": "Muévete y desplázate lateralmente por el bloque de celdas, el pasillo y los túneles."
+            },
+            {
+              "label": "Shift",
+              "detail": "Mantén para esprintar cuando el guardia te fija y empieza la música de persecución."
+            },
+            {
+              "label": "E",
+              "detail": "Interactúa con botones, palancas y avisos de NPC por toda la prisión."
+            },
+            {
+              "label": "1-9",
+              "detail": "Cambia la herramienta de la ranura activa de la barra rápida sin abrir la mochila."
+            },
+            {
+              "label": "Space",
+              "detail": "Salta sobre escombros, huecos y secciones de suelo roto."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Requisitos del sistema de Dig to Escape",
+          "description": "Lo que necesitas para ejecutar Dig to Escape VR, incluidos los visores Meta Quest compatibles, el tamaño de instalación, los modos de juego y el soporte sin conexión.",
+          "href": "/progression/dig-to-escape-vr-price",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Plataforma",
+              "detail": "Dig to Escape VR está disponible en Meta Quest 2, Quest 3, Quest 3S y Quest Pro."
+            },
+            {
+              "label": "Almacenamiento",
+              "detail": "Se necesitan unos 713 MB de espacio de instalación en el visor."
+            },
+            {
+              "label": "Sin conexión",
+              "detail": "No se requiere conexión a internet una vez terminada la descarga."
+            },
+            {
+              "label": "Modos",
+              "detail": "Un solo usuario, jugable de pie, sentado o a escala de habitación."
+            },
+            {
+              "label": "Comodidad",
+              "detail": "Valorado con comodidad moderada, así que alterna pausas en sesiones largas de túnel."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Noticias y actualizaciones de Dig to Escape",
+          "description": "Detalles de lanzamiento, notas de versión y los cambios de actualización que merece la pena probar, desde la velocidad de excavación y el diseño de túneles hasta el horario de patrulla.",
+          "href": "/progression/dig-to-escape-new-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Lanzamiento",
+              "detail": "Dig to Escape se lanzó el 27 de diciembre de 2025 de la mano del desarrollador K&K Studio."
+            },
+            {
+              "label": "Versión",
+              "detail": "La versión 1.06 de VR llega sin modos de multijugador ni cooperativo en línea."
+            },
+            {
+              "label": "Valoración",
+              "detail": "La tienda de Meta Quest muestra una valoración de 4.8 con 131 reseñas de jugadores."
+            },
+            {
+              "label": "Parches",
+              "detail": "Las actualizaciones ajustan la velocidad de excavación, el diseño de túneles y el espaciado de la patrulla nocturna."
+            },
+            {
+              "label": "Tráiler",
+              "detail": "Mira el tráiler oficial de K&K Studio para la versión actual."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes de Dig to Escape",
+      "description": "Respuestas rápidas a las preguntas que más hacen los jugadores nuevos sobre Dig to Escape.",
+      "items": [
+        {
+          "question": "¿Qué es Dig to Escape?",
+          "answer": "Dig to Escape es un juego de supervivencia y fuga de prisión en el que empiezas encerrado en una celda, cavas a través del suelo y sigues un supuesto túnel secreto hacia la superficie mientras un guardia patrulla de noche. Está disponible como experiencia gratuita de Roblox y como versión de VR de 12,99 $ de K&K Studio para visores Meta Quest."
+        },
+        {
+          "question": "¿Cuánto dura una partida de Dig to Escape?",
+          "answer": "Una sesión típica de Dig to Escape dura entre 30 y 60 minutos, repartidos entre reconocer el bloque de celdas, cavar hacia el túnel y calcular tu fuga final según la patrulla del guardia."
+        },
+        {
+          "question": "¿Cuál es la forma más rápida de escapar en Dig to Escape?",
+          "answer": "Acumula Papel Higiénico desde el principio, compra una pala más fuerte y cava hacia abajo en dirección al supuesto túnel. El final del Pozo de mina no necesita compras, el de la Cocina necesita unos 300 de Papel Higiénico, y el de las Azoteas necesita 300 de Papel Higiénico más una Tarjeta de acceso ilegal de 200 de Papel Higiénico."
+        },
+        {
+          "question": "¿Dig to Escape tiene códigos?",
+          "answer": "Dig to Escape no tiene sistema de canje, así que no existen códigos funcionales. No hay botón de códigos ni campo de canje en el juego, y cualquier lista de códigos de Dig to Escape que afirme lo contrario es inventada."
+        },
+        {
+          "question": "¿Cuál es la mejor clase en Dig to Escape?",
+          "answer": "Negociador es la clase más fuerte de Dig to Escape para la mayoría de jugadores porque reduce un 20 por ciento el precio de todas las tiendas, mientras que Energizador e Hiperactivo son las mejores opciones para excavaciones largas y con muchas capas."
+        },
+        {
+          "question": "¿Se puede jugar a Dig to Escape con amigos?",
+          "answer": "La versión de VR de Dig to Escape es una experiencia para un solo usuario, sin cooperativo en línea, cooperativo local ni juego cruzado, mientras que la versión de Roblox funciona en servidores públicos compartidos donde otros reclusos cavan junto a ti."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar Dig to Escape?",
+      "description": "Desde tu primera noche esquivando al guardia hasta cada final secreto, nuestra wiki comunitaria te lo cubre todo con guías gratuitas y actualizadas.",
+      "primary": "Lee la guía para principiantes",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guía de Dig to Escape",
+    "overviewDescription": "Guías para principiantes, rutas de escape y consejos para salir de prisión rápido en Dig to Escape."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de Dig to Escape",
+    "overviewDescription": "Estado actual de los códigos, cómo funciona el canje y qué recompensas gratis esperar en Dig to Escape."
+  },
+  "endings": {
+    "overviewTitle": "Finales de Dig to Escape",
+    "overviewDescription": "Todos los finales de Dig to Escape explicados, incluidas las fugas por la azotea, el conserje y el helicóptero."
+  },
+  "maps": {
+    "overviewTitle": "Mapas de Dig to Escape",
+    "overviewDescription": "Guías de mapas de prisión, detención, escuela y guardería con rutas y diseños para Dig to Escape."
+  },
+  "items": {
+    "overviewTitle": "Objetos de Dig to Escape",
+    "overviewDescription": "Tarjetas de acceso, baterías, palas, escaleras y la cuchara dorada: qué hace cada objeto de Dig to Escape."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Dig to Escape",
+    "overviewDescription": "Clases, insignias, reanimación, multijugador y mecánicas de speedrun explicadas para Dig to Escape."
+  },
+  "controls": {
+    "overviewTitle": "Controles de Dig to Escape",
+    "overviewDescription": "Esquemas de control de PC, Xbox y VR, además de todas las combinaciones de teclas de Dig to Escape."
+  },
+  "progression": {
+    "overviewTitle": "Progresión de Dig to Escape",
+    "overviewDescription": "Actualizaciones, precio de VR, récords mundiales y detalles del lanzamiento en Roblox de Dig to Escape."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Dig to Escape Wiki",
+    "about": "Dig to Escape Wiki es un centro de guías independiente hecho por fans que cubre rutas de escape, finales, herramientas, clases, mecánicas de prisión y conocimientos esenciales del juego, tanto para jugadores nuevos como veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Dig to Escape Wiki. No afiliado a los desarrolladores ni editores del juego.",
+    "description": "Aventura de fuga de prisión subterránea. Cava, burla a los guardias y encuentra cada salida secreta.",
+    "playGame": "Jugar en Steam",
+    "officialRoblox": "Jugar en Roblox",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Herramientas de Dig to Escape",
+    "beginnerGuide": "Guía",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "codes": "Códigos",
+    "endings": "Finales",
+    "maps": "Mapas"
+  }
+}
