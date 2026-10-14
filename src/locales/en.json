@@ -9,7 +9,15 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "codes": "Codes",
+    "endings": "Endings",
+    "maps": "Maps",
+    "items": "Items",
+    "mechanics": "Mechanics",
+    "controls": "Controls",
+    "progression": "Progression"
   },
   "home": {
     "meta": {
@@ -445,7 +453,38 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Dig to Escape Guide",
+    "overviewDescription": "Beginner walkthroughs, escape routes, and tips to break out of prison fast in Dig to Escape."
+  },
+  "codes": {
+    "overviewTitle": "Dig to Escape Codes",
+    "overviewDescription": "Current code status, how redemption works, and what free rewards to expect in Dig to Escape."
+  },
+  "endings": {
+    "overviewTitle": "Dig to Escape Endings",
+    "overviewDescription": "Every Dig to Escape ending explained, including the rooftop, janitor, and helicopter escapes."
+  },
+  "maps": {
+    "overviewTitle": "Dig to Escape Maps",
+    "overviewDescription": "Prison, detention, school, and daycare map guides with routes and layouts for Dig to Escape."
+  },
+  "items": {
+    "overviewTitle": "Dig to Escape Items",
+    "overviewDescription": "Keycards, batteries, shovels, ladders, and the golden spoon: what each Dig to Escape item does."
+  },
+  "mechanics": {
+    "overviewTitle": "Dig to Escape Mechanics",
+    "overviewDescription": "Classes, badges, revive, multiplayer, and speedrun mechanics explained for Dig to Escape."
+  },
+  "controls": {
+    "overviewTitle": "Dig to Escape Controls",
+    "overviewDescription": "PC, Xbox, and VR control schemes plus full keybindings for Dig to Escape."
+  },
+  "progression": {
+    "overviewTitle": "Dig to Escape Progression",
+    "overviewDescription": "Updates, VR price, world records, and Roblox release details for Dig to Escape."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -476,11 +515,11 @@
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Dig to Escape Tools",
-    "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "beginnerGuide": "Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "codes": "Codes",
+    "endings": "Endings",
+    "maps": "Maps"
   }
 }

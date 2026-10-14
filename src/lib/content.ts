@@ -225,11 +225,11 @@ export async function getContent(contentType: string, slugSegments: string[], la
  * 导航分组结构（用于动态 Wiki Navigation）
  */
 export interface NavGroup {
-  /** 分组标题，来自目录名转人类可读格式，如 "bosses" → "Bosses" */
+  /** 分组标题，来自目录名转人类可读格式，如 "codes" → "Codes" */
   title: string;
   /** 该分组下的文章数量 */
   count: number;
-  /** 分组 slug（即目录名，如 "bosses"） */
+  /** 分组 slug（即目录名，如 "codes"） */
   slug: string;
   /** 文章链接列表 */
   links: Array<{ label: string; href: string; badge?: string }>;
@@ -237,40 +237,71 @@ export interface NavGroup {
 
 // 分组标题映射：slug → 人类可读标题（默认英文）
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
   guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  codes: "Codes",
+  endings: "Endings",
+  maps: "Maps & Areas",
+  items: "Items",
+  mechanics: "Mechanics",
+  controls: "Controls",
+  progression: "Updates & Progression",
 };
 
-// 日文分组标题映射
-const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
+// 西班牙语分组标题映射
+const GROUP_TITLES_ES: Record<string, string> = {
+  guide: "Primeros Pasos",
+  codes: "Códigos",
+  endings: "Finales",
+  maps: "Mapas y Zonas",
+  items: "Objetos",
+  mechanics: "Mecánicas",
+  controls: "Controles",
+  progression: "Actualizaciones y Progreso",
+};
+
+// 葡萄牙语分组标题映射
+const GROUP_TITLES_PT: Record<string, string> = {
+  guide: "Primeiros Passos",
+  codes: "Códigos",
+  endings: "Finais",
+  maps: "Mapas e Áreas",
+  items: "Itens",
+  mechanics: "Mecânicas",
+  controls: "Controles",
+  progression: "Atualizações e Progresso",
+};
+
+// 德语分组标题映射
+const GROUP_TITLES_DE: Record<string, string> = {
+  guide: "Erste Schritte",
+  codes: "Codes",
+  endings: "Ende",
+  maps: "Karten & Gebiete",
+  items: "Gegenstände",
+  mechanics: "Mechaniken",
+  controls: "Steuerung",
+  progression: "Updates & Fortschritt",
 };
 
 // locale → 分组标题映射
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
-  ja: GROUP_TITLES_JA,
+  es: GROUP_TITLES_ES,
+  pt: GROUP_TITLES_PT,
+  de: GROUP_TITLES_DE,
 };
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
-  ja: "一覧",
+  es: "Resumen",
+  pt: "Visão Geral",
+  de: "Übersicht",
 };
 
 // 分组排序顺序
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide", "codes", "endings", "maps", "items", "mechanics", "controls", "progression",
 ];
+
 
 /**
  * 动态生成 Wiki Navigation 分组
