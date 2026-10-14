@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the full Dig to Escape loop: scout the cell block, dig a clean starter shaft, sell what you pull up and time your first break around the night guard."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Class",
+          "description": "Compare all five Diamond classes, from the 100 Diamond Speedster to the 900 Diamond Bargainer, and see which one suits the route you want to run."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "All Endings",
+          "description": "Every documented finale in one place, including the Mineshaft route, the 300 Toilet Paper Kitchen escape and the Janitor's keycard run."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Dig to Escape."
+          "title": "Fast TP Farming",
+          "description": "Farm Toilet Paper faster with rectangular dig patterns, immediate selling and the upgrade order that keeps your income ahead of your costs."
         }
       ]
     },
@@ -66,265 +66,375 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Best Class",
+        "All Endings",
+        "Prison Map"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "The full Dig to Escape loop, from your first scoop of dirt to your first clean escape.",
+          "href": "/guide/dig-to-escape-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "All Endings",
+          "description": "Mineshaft, Kitchen, Janitor's and Rooftops: every exit and what it costs to unlock.",
+          "href": "/endings/dig-to-escape-all-endings"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "Best Class",
+          "description": "All five Diamond classes ranked, with costs and the escape routes each one suits.",
+          "href": "/mechanics/dig-to-escape-best-class"
+        },
+        {
+          "badge": "Popular",
+          "title": "Prison Map",
+          "description": "Cell block, main corridor, guard office and dig layer, plus night patrol timing.",
+          "href": "/maps/dig-to-escape-prison"
+        },
+        {
+          "badge": "New",
+          "title": "Escape Tips",
+          "description": "Recon habits, Toilet Paper farming and the mistakes that end most runs.",
+          "href": "/guide/dig-to-escape-tips"
+        },
+        {
+          "badge": "Popular",
+          "title": "Tool Upgrades",
+          "description": "Spoon, Toy Shovel and Spatula costs and the digging speed each one adds.",
+          "href": "/items/dig-to-escape-shovel"
+        },
+        {
+          "badge": "New",
+          "title": "VR Guide",
+          "description": "Meta Quest support, upgrade order and the fastest route through the VR build.",
+          "href": "/progression/dig-to-escape-vr"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Latest Update",
+          "description": "What changes when a Dig to Escape patch lands and what to test first.",
+          "href": "/progression/dig-to-escape-new-update"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Controls",
+          "description": "Keyboard, mouse and gamepad inputs for digging, sprinting and interacting.",
+          "href": "/controls/dig-to-escape-controls"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Dig to Escape?",
       "paragraphs": [
-        "Dig to Escape is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Dig to Escape is a prison-break survival game built on one promise: somewhere under the cell block, a secret tunnel leads out. You start locked in a cell with a digging tool, break through the floor, and follow the softest dirt downward while a guard patrols the corridors above. The loop is easy to learn and tense to run, because every swing of the shovel is a trade-off between progress and noise.",
+        "The game ships two ways: a free Roblox experience with shared public servers, and a $12.99 VR release from K&K Studio for Meta Quest headsets. Runs last roughly 30 to 60 minutes and finish in one of several distinct endings, including the Mineshaft, Kitchen, Janitor's and Rooftops finales. Our Dig to Escape wiki covers every route, tool tier and class so you can choose a plan before your first swing."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "K&K Studio"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Platforms",
+          "value": "Roblox & Meta Quest"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Survival / Escape"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Session",
+          "value": "30-60 min"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "VR Price",
+          "value": "$12.99"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Store Rating",
+          "value": "4.8 / 5"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Dig to Escape Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Every Dig to Escape system in one place: beginner steps, tool upgrades, escape tips, prison mechanics, controls, system requirements and the latest update news.",
       "modules": [
         {
           "order": 1,
-          "name": "Dig to Escape Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/dig-to-escape-codes",
-          "displayType": "code-box",
+          "name": "Dig to Escape Beginner Guide",
+          "description": "Start here for the full beginner loop, from scouting your cell to timing the final break, plus the digging and selling habits that make early runs click.",
+          "href": "/guide/dig-to-escape-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Scan the cell block and main corridor from inside your cell before you touch the floor."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Dig a shallow starter hole in a cell corner, where the walls muffle the noise."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Break through to the dig layer slowly and freeze whenever footsteps get close."
+            },
+            {
+              "label": "4",
+              "detail": "Follow the softest dirt, which usually marks the route toward the hidden tunnel."
+            },
+            {
+              "label": "5",
+              "detail": "Cross the maintenance room and its floor grate if your tunnel dead-ends."
+            },
+            {
+              "label": "6",
+              "detail": "Sprint to the surface exit and commit, because the guard tracks your noise trail."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/dig-to-escape-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Dig to Escape Gameplay Guide",
+          "description": "See how the core systems fit together: digging routes, loot and selling, Toilet Paper income, classes and the endings they unlock.",
+          "href": "/guide/dig-to-escape-how-to-escape",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Digging",
+              "detail": "Break through cell floors and tunnel walls to open the physical route to every ending."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Loot",
+              "detail": "Every block you clear can drop contraband and items worth carrying to the surface."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Selling",
+              "detail": "Convert dug-up items into Toilet Paper, the currency that funds every escape."
+            },
+            {
+              "label": "Classes",
+              "detail": "Pick one of five permanent classes to shape digging speed, stamina and detection."
+            },
+            {
+              "label": "Endings",
+              "detail": "Trigger the Mineshaft, Kitchen, Janitor's or Rooftops finale once its gate is met."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/dig-to-escape-tier-list",
+          "name": "Dig to Escape Tools Guide",
+          "description": "Every digging tool and upgrade tier, from the free starter spoon to the Toy Shovel, Spatula and Golden Spoon, with the speed each one adds.",
+          "href": "/items/dig-to-escape-shovel",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Golden Spoon, the top early upgrade, with faster swings and far more durability."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Spatula at 45 Toilet Paper, the mid-tier tool that keeps pace as layers harden."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Toy Shovel at 25 Toilet Paper for +16 Digging Speed, enough to crack the second layer."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Starter Spoon, free at spawn and only strong enough for the first layer."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/dig-to-escape-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Dig to Escape Escape Tips",
+          "description": "Practical habits that shorten a run: recon the patrol, dig only in safe windows, bank your loot and match your class to the route.",
+          "href": "/guide/dig-to-escape-tips",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Recon",
+              "detail": "Watch one full guard pass before you break ground and plan around it."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Timing",
+              "detail": "Never dig while you can hear footsteps, and never return to a fresh hole after a chase."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Banking",
+              "detail": "Sell loot immediately so a failed escape costs you far less."
+            },
+            {
+              "label": "Classes",
+              "detail": "Match your class to the route instead of buying on raw stats alone."
+            },
+            {
+              "label": "Routes",
+              "detail": "Finish one ending before starting the next to avoid split progress."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/dig-to-escape-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Dig to Escape Prison Mechanics",
+          "description": "A full breakdown of the prison, including the cell block, main corridor, guard office, maintenance room, dig layer and the final surface exit.",
+          "href": "/maps/dig-to-escape-prison",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Cell Block",
+              "detail": "Your starting dig site, where noise carries straight into the corridor."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Corridor",
+              "detail": "The guard's main patrol lane and the most dangerous crossing in the map."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Guard",
+              "detail": "Patrols at night, pauses near recent noise, then chases the last sound source."
+            },
+            {
+              "label": "Dig Layer",
+              "detail": "Soft dirt and rock pockets below the floor where the actual escape happens."
+            },
+            {
+              "label": "Grate",
+              "detail": "The maintenance room floor grate is a second entrance into the dig layer."
+            },
+            {
+              "label": "Surface",
+              "detail": "The final exit gate, where one mistake resets the whole run."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/dig-to-escape-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Dig to Escape Controls",
+          "description": "Keyboard, mouse and gamepad inputs for digging, sprinting, interacting and swapping tools, plus the timing that keeps you out of sight.",
+          "href": "/controls/dig-to-escape-controls",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "LMB",
+              "detail": "Hold the left mouse button to dig into the block face you are aiming at."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "WASD",
+              "detail": "Move and strafe through the cell block, corridor and tunnels."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Shift",
+              "detail": "Hold to sprint when the guard locks on and the chase music starts."
+            },
+            {
+              "label": "E",
+              "detail": "Interact with buttons, levers and NPC prompts across the prison."
+            },
+            {
+              "label": "1-9",
+              "detail": "Switch the tool in your active hotbar slot without opening the backpack."
+            },
+            {
+              "label": "Space",
+              "detail": "Jump over rubble, gaps and broken floor sections."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Dig to Escape System Requirements",
+          "description": "What you need to run Dig to Escape VR, covering supported Meta Quest headsets, install size, play modes and offline support.",
+          "href": "/progression/dig-to-escape-vr-price",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Platform",
+              "detail": "Dig to Escape VR ships on Meta Quest 2, Quest 3, Quest 3S and Quest Pro."
+            },
+            {
+              "label": "Storage",
+              "detail": "Roughly 713 MB of install space is needed on the headset."
+            },
+            {
+              "label": "Offline",
+              "detail": "No internet connection is required once the download finishes."
+            },
+            {
+              "label": "Modes",
+              "detail": "Single user, playable standing, sitting or roomscale."
+            },
+            {
+              "label": "Comfort",
+              "detail": "Rated moderate comfort, so pace longer tunnel sessions with breaks."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Dig to Escape News And Updates",
+          "description": "Release details, version notes and the update changes worth testing, from dig speed and tunnel layout to guard patrol timing.",
+          "href": "/progression/dig-to-escape-new-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Release",
+              "detail": "Dig to Escape launched on December 27, 2025 from developer K&K Studio."
+            },
+            {
+              "label": "Version",
+              "detail": "The 1.06 VR build ships with no online multiplayer or co-op modes."
+            },
+            {
+              "label": "Rating",
+              "detail": "The Meta Quest store lists a 4.8 rating across 131 player reviews."
+            },
+            {
+              "label": "Patches",
+              "detail": "Updates tweak dig speed, tunnel layout and night guard patrol spacing."
+            },
+            {
+              "label": "Trailer",
+              "detail": "Watch the official K&K Studio trailer for the current build."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Dig to Escape.",
+      "title": "Dig to Escape FAQ",
+      "description": "Quick answers to the questions new players ask most about Dig to Escape.",
       "items": [
         {
           "question": "What is Dig to Escape?",
-          "answer": "Dig to Escape is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Dig to Escape is a prison-break survival game where you start locked in a cell, dig through the floor and follow a rumored secret tunnel toward the surface while a guard patrols at night. It runs as a free Roblox experience and as a $12.99 VR release from K&K Studio for Meta Quest headsets."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How long does a Dig to Escape run take?",
+          "answer": "A typical Dig to Escape session runs 30 to 60 minutes, split between scouting the cell block, digging toward the tunnel and timing your final break around the guard's patrol."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What is the fastest way to escape in Dig to Escape?",
+          "answer": "Bank Toilet Paper early, buy a stronger shovel and dig straight down toward the rumored tunnel. The Mineshaft ending needs no purchases, the Kitchen ending needs about 300 Toilet Paper, and the Rooftops ending needs 300 Toilet Paper plus a 200 Toilet Paper Illegal Keycard."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Does Dig to Escape have codes?",
+          "answer": "Dig to Escape has no redemption system, so no working codes exist. There is no codes button and no redeem field in the game, and any Dig to Escape code list claiming otherwise is fabricated."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Which class is best in Dig to Escape?",
+          "answer": "Bargainer is the strongest Dig to Escape class for most players because it cuts every shop price by 20 percent, while Energizer and Hyperactive are the top picks for long, layer-heavy digs."
+        },
+        {
+          "question": "Can you play Dig to Escape with friends?",
+          "answer": "The VR version of Dig to Escape is a single-user experience with no online co-op, local co-op or cross-play, while the Roblox version runs on shared public servers where other inmates dig alongside you."
         }
       ]
     },
