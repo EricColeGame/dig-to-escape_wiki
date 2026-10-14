@@ -19,18 +19,17 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Dig to Escape Wiki",
+  shortName: "Dig to Escape",
+  logoText: "D",
+  tagline: "Guides, Digging Routes, Tools & Escape Tips",
+  description: "Complete Dig to Escape wiki with beginner guides, digging routes, tool upgrades, escape tips, prison mechanics, VR controls and the latest update news.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://dig-to-escape.wiki",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://dig-to-escape.wiki").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/4232670/",
+  heroVideoId: "dPvYW_5E8dk", // Dig To Escape | Official Trailer (K&K Studio)
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    youtube: "https://www.youtube.com/@KnKStudio-GameDev",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",

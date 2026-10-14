@@ -18,7 +18,7 @@ const icons: LucideIcon[] = [BookOpen, Shield, Compass, Boxes, Flame, Code2, Swo
 
 
 export default function HomePageClient({ home, locale, articles, recentArticles }: { home: Home; locale: string; articles: ContentItem[]; recentArticles: ContentItem[] }) {
-  const YOUTUBE_VIDEO_ID = siteConfig.heroVideoId || "";
+  const YOUTUBE_VIDEO_ID = siteConfig.heroVideoId || "dPvYW_5E8dk"; // Dig To Escape | Official Trailer (K&K Studio)
 
   return (
     <div className="min-w-0 space-y-16">
@@ -31,14 +31,16 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
           <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl lg:text-6xl">{home.hero.title}</h1>
           <span className="mt-2 inline-flex items-center rounded-md border border-[hsl(var(--nav-theme))] bg-[hsl(var(--nav-theme))] px-2.5 py-0.5 text-xs font-semibold text-primary-foreground sm:-translate-y-1.5">{home.hero.eyebrow}</span>
         </div>
-        {YOUTUBE_VIDEO_ID && (
-          <div className="mx-auto mt-5 max-w-2xl">
-            <TrailerButton videoId={YOUTUBE_VIDEO_ID} />
-          </div>
-        )}
         <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-muted-foreground">{home.hero.description}</p>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-1.5">{home.hero.stats.map((stat) => <span key={stat} className="inline-flex items-center gap-1 rounded-full bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground">{stat}</span>)}</div>
       </section>
+
+      {/* Official trailer video — must stay directly below the hero section */}
+      {YOUTUBE_VIDEO_ID && (
+        <section className="mx-auto w-full max-w-4xl">
+          <TrailerButton videoId={YOUTUBE_VIDEO_ID} />
+        </section>
+      )}
 
       {/* Native banner right below the hero (course §3.5) */}
       <NativeBannerAd />
